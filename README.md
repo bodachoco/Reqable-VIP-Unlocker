@@ -4,7 +4,7 @@
 
 Lifetime VIP for Reqable. *(Unpatchable)*
 
-[![Download 1.0.0](https://img.shields.io/badge/Download-1.0.0-e6a700?style=for-the-badge)](https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest)
+[![Download 1.0.1](https://img.shields.io/badge/Download-1.0.1-e6a700?style=for-the-badge)](https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest)
 
 <p>
   <a href="https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest">
@@ -52,15 +52,17 @@ Lifetime VIP for Reqable. *(Unpatchable)*
 - **arm64** device
 - **Reqable** for Android
 
-Works on **3.2.16** (also checked on **3.2.14**). If yours doesn’t, [open an issue](https://github.com/bodachoco/Reqable-VIP-Unlocker/issues/new/choose).
+Works on **global and Chinese** Reqable builds (**3.2.16**, also checked on **3.2.14**). If yours doesn’t, [open an issue](https://github.com/bodachoco/Reqable-VIP-Unlocker/issues/new/choose) and **specify your region / store version**.
 
 ### Install
 
-1. Install [Reqable from the Play Store](https://play.google.com/store/apps/details?id=com.reqable.android)
-2. Install [`ReqableVipUnlocker-1.0.0.apk`](https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest)
+1. Install [Reqable from the Play Store](https://play.google.com/store/apps/details?id=com.reqable.android) *(or your regional / Chinese store build)*
+2. Install [`ReqableVipUnlocker-1.0.1.apk`](https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest)
 3. **LSPosed** → enable → scope **Reqable**
-4. **Reboot**, then open Reqable once with internet
+4. Force-stop Reqable (or reboot), then open it once with internet
+
+If you enable the module while Reqable is already open, it will force-stop and relaunch for a cold inject.
 
 ### Uninstall
 
-Disable or remove the module in LSPosed, then reboot.
+Disable or remove the module in LSPosed — Reqable exits so VIP does not stick mid-session. Reboot optional.
