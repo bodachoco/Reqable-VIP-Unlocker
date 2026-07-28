@@ -26,18 +26,7 @@ Lifetime VIP for Reqable. *(Unpatchable)*
   <a href="https://github.com/bodachoco/Reqable-VIP-Unlocker/discussions">
     <img alt="Discussions" src="https://img.shields.io/badge/Discussions-Join-6366f1?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  &nbsp;
-  <a href="bitcoin:bc1qm35fzw9e5d5558gn6k4746f2nhvzu00lpjd2v6">
-    <img alt="BTC" src="https://img.shields.io/badge/BTC-Donate-f7931a?style=for-the-badge&logo=bitcoin&logoColor=white" />
-  </a>
 </p>
-
-<details>
-<summary>BTC address</summary>
-
-`bc1qm35fzw9e5d5558gn6k4746f2nhvzu00lpjd2v6`
-
-</details>
 
 <a id="coming-soon"></a>
 
