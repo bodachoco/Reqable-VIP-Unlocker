@@ -74,6 +74,16 @@ Lifetime VIP for Reqable. *(Unpatchable)*
 
 ---
 
+### Demo
+
+<p align="center">
+  <a href="docs/issue1/demo.mp4">
+    <img alt="Watch demo" src="https://img.shields.io/badge/Watch-Demo-e6a700?style=for-the-badge&logo=youtube&logoColor=white" />
+  </a>
+</p>
+
+---
+
 ### Prerequisites
 
 - Root + **LSPosed** (Zygisk)
