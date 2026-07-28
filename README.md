@@ -36,12 +36,22 @@ Lifetime VIP for Reqable. *(Unpatchable)*
 
 ---
 
-### After
+### After — Global
 
 <p align="center">
-  <img src="docs/images/after-drawer.png" width="220" alt="After drawer" />
+  <img src="docs/images/after-drawer-global.png" width="220" alt="After drawer (Global)" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/images/after-account.png" width="220" alt="After account" />
+  <img src="docs/images/after-account-global.png" width="220" alt="After account (Global)" />
+</p>
+
+---
+
+### After — Chinese
+
+<p align="center">
+  <img src="docs/images/after-drawer-cn.png" width="220" alt="After drawer (Chinese)" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/images/after-account-cn.png" width="220" alt="After account (Chinese)" />
 </p>
 
 ---
