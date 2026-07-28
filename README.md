@@ -56,8 +56,7 @@ Works on **3.2.16** (also checked on **3.2.14**). If yours doesn’t, [open an i
 
 ### Install
 
-1. Install **Reqable**  
-   Don’t have it? Grab [`Reqable-3.2.14-arm64.apk`](https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest) from the release (separate download).
+1. Install [Reqable from the Play Store](https://play.google.com/store/apps/details?id=com.reqable.android)
 2. Install [`ReqableVipUnlocker-1.0.0.apk`](https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest)
 3. **LSPosed** → enable → scope **Reqable**
 4. **Reboot**, then open Reqable once with internet
