@@ -59,10 +59,8 @@ Works on **global and Chinese** Reqable builds (**3.2.16**, also checked on **3.
 1. Install [Reqable from the Play Store](https://play.google.com/store/apps/details?id=com.reqable.android) *(or your regional / Chinese store build)*
 2. Install [`ReqableVipUnlocker-1.0.1.apk`](https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest)
 3. **LSPosed** → enable → scope **Reqable**
-4. Force-stop Reqable (or reboot), then open it once with internet
-
-If you enable the module while Reqable is already open, it will force-stop and relaunch for a cold inject.
+4. **Reboot**, then open Reqable once with internet
 
 ### Uninstall
 
-Disable or remove the module in LSPosed — Reqable exits so VIP does not stick mid-session. Reboot optional.
+Disable or remove the module in LSPosed, then reboot.
