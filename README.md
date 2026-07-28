@@ -30,7 +30,18 @@ Lifetime VIP for Reqable. *(Unpatchable)*
   <a href="https://github.com/sponsors/bodachoco">
     <img alt="Sponsor" src="https://img.shields.io/badge/Sponsor-♥-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" />
   </a>
+  &nbsp;
+  <a href="bitcoin:bc1qm35fzw9e5d5558gn6k4746f2nhvzu00lpjd2v6">
+    <img alt="BTC" src="https://img.shields.io/badge/BTC-Donate-f7931a?style=for-the-badge&logo=bitcoin&logoColor=white" />
+  </a>
 </p>
+
+<details>
+<summary>BTC address</summary>
+
+`bc1qm35fzw9e5d5558gn6k4746f2nhvzu00lpjd2v6`
+
+</details>
 
 <a id="coming-soon"></a>
 
