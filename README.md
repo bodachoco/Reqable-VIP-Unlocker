@@ -80,10 +80,6 @@ Lifetime VIP for Reqable. *(Unpatchable)*
   <img src="docs/issue1/demo.gif" width="280" alt="Demo" />
 </p>
 
-<p align="center">
-  <a href="docs/issue1/demo.mp4">MP4</a>
-</p>
-
 ---
 
 ### Prerequisites
