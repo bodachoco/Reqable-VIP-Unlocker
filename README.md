@@ -5,6 +5,8 @@
 Lifetime VIP for Reqable. *(Unpatchable)*
 
 [![Download 1.0.1](https://img.shields.io/badge/Download-1.0.1-e6a700?style=for-the-badge)](https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/bodachoco/Reqable-VIP-Unlocker/total?style=for-the-badge&color=e6a700)](https://github.com/bodachoco/Reqable-VIP-Unlocker/releases)
+[![Latest downloads](https://img.shields.io/github/downloads/bodachoco/Reqable-VIP-Unlocker/latest/total?style=for-the-badge&color=22c55e)](https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest)
 
 <p>
   <a href="https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest">
@@ -17,6 +19,16 @@ Lifetime VIP for Reqable. *(Unpatchable)*
   &nbsp;
   <a href="#coming-soon">
     <img alt="Windows Coming soon" src="https://img.shields.io/badge/Windows-Coming%20soon-64748b?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/bodachoco/Reqable-VIP-Unlocker/discussions">
+    <img alt="Discussions" src="https://img.shields.io/badge/Discussions-Join-6366f1?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/sponsors/bodachoco">
+    <img alt="Sponsor" src="https://img.shields.io/badge/Sponsor-♥-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" />
   </a>
 </p>
 
