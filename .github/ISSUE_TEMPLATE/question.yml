@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        For broken VIP / crashes, pick a bug template instead so we get the right details.
+        For broken VIP / crashes, pick a bug template instead so I get the right details.
   - type: dropdown
     id: topic
     attributes:

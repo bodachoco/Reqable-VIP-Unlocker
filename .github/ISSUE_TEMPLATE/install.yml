@@ -58,7 +58,7 @@ body:
           required: true
         - label: Using Zygisk LSPosed (not an old Riru-only build)
           required: false
-        - label: Downloaded from our GitHub release
+        - label: Downloaded from my GitHub release
           required: false
   - type: textarea
     id: extra

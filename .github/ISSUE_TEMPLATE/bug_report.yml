@@ -57,7 +57,7 @@ body:
           required: true
         - label: Opened Reqable once with internet after reboot
           required: true
-        - label: Installed from our GitHub release (not re-signed)
+        - label: Installed from my GitHub release (not re-signed)
           required: false
   - type: textarea
     id: extra
