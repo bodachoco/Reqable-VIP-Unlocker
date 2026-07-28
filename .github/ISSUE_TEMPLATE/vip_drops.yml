@@ -1,17 +1,16 @@
-name: Doesn't work (general)
-description: VIP missing, wrong UI, or anything not covered by the other bug forms
-title: "[Bug] "
+name: VIP shows then disappears
+description: Member shows briefly, then Sign In / free again
+title: "[Bug] VIP drops "
 labels: ["needs-triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Prefer **VIP shows then disappears** or **Crash** if that matches — those forms ask better questions.
+        VIP flashes then falls back. Fill this out so we can reproduce.
   - type: input
     id: reqable-version
     attributes:
       label: Reqable version
-      description: App info → version, and where you installed it (Play / official / GitHub)
       placeholder: "3.2.16 · Play"
     validations:
       required: true
@@ -19,7 +18,6 @@ body:
     id: module-version
     attributes:
       label: Module version
-      description: Unlocker APK version from the release page
       placeholder: "1.0.0"
     validations:
       required: true
@@ -34,16 +32,41 @@ body:
     id: root-lsposed
     attributes:
       label: Root / LSPosed
-      description: Magisk, KernelSU, or APatch + version; Zygisk LSPosed if known
       placeholder: "Magisk · Zygisk LSPosed"
     validations:
       required: true
-  - type: textarea
-    id: what
+  - type: dropdown
+    id: where
     attributes:
-      label: What happens
-      description: What you see vs what you expected
-      placeholder: "No crown / still Sign In / Account looks wrong / …"
+      label: Where did VIP show first?
+      options:
+        - Drawer / side menu
+        - Account Center
+        - Both
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: how-long
+    attributes:
+      label: About how long until it drops?
+      options:
+        - Under 2 seconds (flash)
+        - A few seconds
+        - After opening Account Center
+        - After a while / random
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: every-time
+    attributes:
+      label: Does it happen every launch?
+      options:
+        - Yes, every time
+        - Most times
+        - Sometimes
+        - Only once so far
     validations:
       required: true
   - type: checkboxes
@@ -57,11 +80,9 @@ body:
           required: true
         - label: Opened Reqable once with internet after reboot
           required: true
-        - label: Installed from our GitHub release (not re-signed)
-          required: false
   - type: textarea
     id: extra
     attributes:
       label: Extra (optional)
-      description: Other Magisk/LSPosed modules, short screen recording, or LSPosed lines mentioning ReqableFaker
-      placeholder: "Module list / GIF / a few log lines…"
+      description: Short screen recording, other modules list, or LSPosed lines mentioning ReqableFaker
+      placeholder: "GIF / module list / a few log lines…"

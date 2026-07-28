@@ -1,2 +1,5 @@
 blank_issues_enabled: false
-contact_links: []
+contact_links:
+  - name: Download latest release
+    url: https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest
+    about: Get the unlocker APK and optional Reqable APK here.

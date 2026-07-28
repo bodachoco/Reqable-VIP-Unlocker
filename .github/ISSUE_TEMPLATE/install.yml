@@ -1,0 +1,67 @@
+name: Install / setup help
+description: Can't install, enable, or get the module to load
+title: "[Setup] "
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Stuck on install or LSPosed setup? Use this form.
+  - type: input
+    id: module-version
+    attributes:
+      label: Module version
+      description: From the GitHub release page
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone / Android
+      placeholder: "Pixel · Android 16"
+    validations:
+      required: true
+  - type: input
+    id: root-lsposed
+    attributes:
+      label: Root / LSPosed
+      placeholder: "Magisk · Zygisk LSPosed"
+    validations:
+      required: true
+  - type: dropdown
+    id: stuck-at
+    attributes:
+      label: Where are you stuck?
+      options:
+        - Installing the unlocker APK
+        - Module doesn't show in LSPosed
+        - Can't enable / scope Reqable
+        - Rebooted but nothing changed
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: Exact error text or what you see on screen
+      placeholder: "APK won't install / module greyed out / …"
+    validations:
+      required: true
+  - type: checkboxes
+    id: basics
+    attributes:
+      label: You already…
+      options:
+        - label: Device is arm64
+          required: true
+        - label: Using Zygisk LSPosed (not an old Riru-only build)
+          required: false
+        - label: Downloaded from our GitHub release
+          required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra (optional)
+      description: Screenshot of LSPosed modules / scope screen helps a lot

@@ -1,0 +1,47 @@
+name: New Reqable version
+description: Ask for support on a Reqable build we haven't verified yet
+title: "[Version] "
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Latest unlocker is verified on **3.2.16** (also checked on 3.2.14). Request another build here.
+  - type: input
+    id: reqable-version
+    attributes:
+      label: Reqable version you want supported
+      placeholder: "3.2.17"
+    validations:
+      required: true
+  - type: input
+    id: module-version
+    attributes:
+      label: Module version you tried
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone / Android
+      placeholder: "Pixel · Android 16"
+    validations:
+      required: true
+  - type: dropdown
+    id: current-result
+    attributes:
+      label: What happens with the current module?
+      options:
+        - Works fine
+        - No VIP at all
+        - VIP shows then disappears
+        - Crash
+        - Didn't try yet
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      placeholder: "Play Store update broke VIP / link to APK / …"

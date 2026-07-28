@@ -2,7 +2,7 @@
 
 # Reqable VIP Unlocker
 
-Lifetime VIP for Reqable.
+Lifetime VIP for Reqable. *(Unpatchable)*
 
 [![Download 1.0.0](https://img.shields.io/badge/Download-1.0.0-e6a700?style=for-the-badge)](https://github.com/bodachoco/Reqable-VIP-Unlocker/releases/latest)
 
@@ -52,7 +52,7 @@ Lifetime VIP for Reqable.
 - **arm64** device
 - **Reqable** for Android
 
-Verified on **3.2.14** — other versions should work. If one doesn’t, [open an issue](https://github.com/bodachoco/Reqable-VIP-Unlocker/issues/new?template=bug_report.yml).
+Works on **3.2.16** (also checked on **3.2.14**). If yours doesn’t, [open an issue](https://github.com/bodachoco/Reqable-VIP-Unlocker/issues/new/choose).
 
 ### Install
 

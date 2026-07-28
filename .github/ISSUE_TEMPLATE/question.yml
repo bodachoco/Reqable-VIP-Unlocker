@@ -1,0 +1,35 @@
+name: Question
+description: Not a bug — just a question about install or usage
+title: "[Question] "
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For broken VIP / crashes, pick a bug template instead so we get the right details.
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Install / LSPosed scope
+        - Does it work on my phone?
+        - macOS / Windows (coming soon)
+        - Uninstall
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      placeholder: "…"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone / Android (if relevant)
+      placeholder: "Pixel · Android 16"
+    validations:
+      required: false

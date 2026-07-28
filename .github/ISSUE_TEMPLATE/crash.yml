@@ -1,0 +1,70 @@
+name: Crash / force close
+description: Reqable closes, freezes, or won't open with the module on
+title: "[Bug] Crash "
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        App dies or freezes with the unlocker enabled.
+  - type: input
+    id: reqable-version
+    attributes:
+      label: Reqable version
+      placeholder: "3.2.16"
+    validations:
+      required: true
+  - type: input
+    id: module-version
+    attributes:
+      label: Module version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone / Android
+      placeholder: "Xiaomi 15 · Android 16"
+    validations:
+      required: true
+  - type: input
+    id: root-lsposed
+    attributes:
+      label: Root / LSPosed
+      placeholder: "Magisk · Zygisk LSPosed"
+    validations:
+      required: true
+  - type: dropdown
+    id: when
+    attributes:
+      label: When does it crash?
+      options:
+        - Right after opening Reqable
+        - Opening Account / login
+        - After a few seconds
+        - Random
+        - Not sure
+    validations:
+      required: true
+  - type: checkboxes
+    id: control
+    attributes:
+      label: Control check
+      options:
+        - label: Reqable works if I disable the unlocker module and reboot
+          required: false
+        - label: Crash only happens with the module enabled
+          required: false
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      placeholder: "Black screen → closes / freeze on splash / …"
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra (optional)
+      description: Crash dialog text, short recording, or LSPosed lines mentioning ReqableFaker
