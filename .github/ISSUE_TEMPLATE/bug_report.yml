@@ -1,0 +1,43 @@
+name: Doesn't work
+description: Broken on your Reqable version or device
+title: "[Bug] "
+labels: ["needs-triage"]
+body:
+  - type: input
+    id: reqable-version
+    attributes:
+      label: Reqable version
+      description: App info → version (e.g. 3.2.14)
+      placeholder: "3.2.14"
+    validations:
+      required: true
+  - type: input
+    id: module-version
+    attributes:
+      label: Module version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone / Android
+      placeholder: "Pixel · Android 16"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      placeholder: Still shows Sign In / no crown / crash…
+    validations:
+      required: true
+  - type: checkboxes
+    id: basics
+    attributes:
+      label: You already…
+      options:
+        - label: Enabled module + scoped Reqable in LSPosed
+          required: true
+        - label: Rebooted
+          required: true
