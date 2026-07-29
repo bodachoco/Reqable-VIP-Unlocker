@@ -61,7 +61,24 @@ body:
         - label: Downloaded from my GitHub release
           required: false
   - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (required)
+      description: Drag/paste images — install error / LSPosed modules list / Reqable scope screen.
+      placeholder: "Paste or drop screenshots…"
+    validations:
+      required: true
+  - type: textarea
+    id: lsposed-logs
+    attributes:
+      label: LSPosed logs (optional)
+      description: If Reqable opens, search logs for ReqableFaker and paste matching lines (or “none”).
+      placeholder: "ReqableFaker: …"
+    validations:
+      required: false
+  - type: textarea
     id: extra
     attributes:
       label: Extra (optional)
-      description: Screenshot of LSPosed modules / scope screen helps a lot
+      description: Anything else
+      placeholder: "Notes…"

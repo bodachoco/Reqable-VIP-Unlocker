@@ -64,7 +64,24 @@ body:
     validations:
       required: true
   - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (required)
+      description: Drag/paste images — crash dialog if any, and LSPosed module + Reqable scope.
+      placeholder: "Paste or drop screenshots…"
+    validations:
+      required: true
+  - type: textarea
+    id: lsposed-logs
+    attributes:
+      label: LSPosed logs (optional)
+      description: Search LSPosed logs for ReqableFaker (and crash/FATAL if present) and paste matching lines.
+      placeholder: "ReqableFaker: … / FATAL …"
+    validations:
+      required: false
+  - type: textarea
     id: extra
     attributes:
       label: Extra (optional)
-      description: Crash dialog text, short recording, or LSPosed lines mentioning ReqableFaker
+      description: Short recording or crash dialog text
+      placeholder: "Notes…"

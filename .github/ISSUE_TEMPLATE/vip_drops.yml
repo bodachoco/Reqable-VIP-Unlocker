@@ -81,8 +81,24 @@ body:
         - label: Opened Reqable once with internet after reboot
           required: true
   - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (required)
+      description: Drag/paste images — drawer when VIP flashes, after it drops (Sign In), and LSPosed scope if useful.
+      placeholder: "Paste or drop screenshots…"
+    validations:
+      required: true
+  - type: textarea
+    id: lsposed-logs
+    attributes:
+      label: LSPosed logs (optional)
+      description: After opening Reqable, search LSPosed logs for ReqableFaker and paste matching lines (or “none”).
+      placeholder: "ReqableFaker: …"
+    validations:
+      required: false
+  - type: textarea
     id: extra
     attributes:
       label: Extra (optional)
-      description: Short screen recording, other modules list, or LSPosed lines mentioning ReqableFaker
-      placeholder: "GIF / module list / a few log lines…"
+      description: Short recording, other modules list
+      placeholder: "GIF / module list…"

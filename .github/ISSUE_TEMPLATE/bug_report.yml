@@ -60,8 +60,24 @@ body:
         - label: Installed from my GitHub release (not re-signed)
           required: false
   - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (required)
+      description: Drag/paste images here — drawer (or Sign In), Account Center if you can open it, and LSPosed module + scope for Reqable.
+      placeholder: "Paste or drop screenshots…"
+    validations:
+      required: true
+  - type: textarea
+    id: lsposed-logs
+    attributes:
+      label: LSPosed logs (optional)
+      description: Open Reqable once, then in LSPosed logs search for ReqableFaker and paste matching lines (or write “none”).
+      placeholder: "ReqableFaker: 1.0.1 loading in com.reqable.android …"
+    validations:
+      required: false
+  - type: textarea
     id: extra
     attributes:
       label: Extra (optional)
-      description: Other Magisk/LSPosed modules, short screen recording, or LSPosed lines mentioning ReqableFaker
-      placeholder: "Module list / GIF / a few log lines…"
+      description: Other Magisk/LSPosed modules, short recording, anything else
+      placeholder: "Module list / notes…"
